@@ -7,6 +7,7 @@
 
 ## Stray observations
 * Need to understand this $GOPATH variable
+* Exported names in packages begin with a capital letter, unexported names are lowercase (unexported means inaccessible/private)
 
 ### Extra resources
 
