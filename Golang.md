@@ -1,7 +1,7 @@
 #Notes on Golang
 
 ## Starting points
-- [ ] [A Tour of Go](https://tour.golang.org/welcome/1)
+- [x] [A Tour of Go](https://tour.golang.org/welcome/1)
 - [ ] [How to write Go Code](https://golang.org/doc/code.html)
 - [ ] [Effective Go](https://golang.org/doc/effective_go.html)
 
