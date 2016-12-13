@@ -11,6 +11,7 @@
 * Exported names in packages begin with a capital letter, unexported names are lowercase (unexported means inaccessible/private)
 * For functions, type comes after variable name
 * print type: `fmt.Printf("x is of type %T\n", x)`
+* Short assignment seems interesting and a possible minefield for me: `:=` with more notes [here](http://stackoverflow.com/questions/12611561/why-does-go-have-short-assignments-inside-functions)
 
 ### Extra resources
 
