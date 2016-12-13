@@ -10,6 +10,7 @@
 * Need to understand this $GOPATH variable
 * Exported names in packages begin with a capital letter, unexported names are lowercase (unexported means inaccessible/private)
 * For functions, type comes after variable name
+* print type: `fmt.Printf("x is of type %T\n", x)`
 
 ### Extra resources
 
