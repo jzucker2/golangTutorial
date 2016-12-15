@@ -24,7 +24,8 @@
   length := len(s)
   capacity := cap(s)
   ```
- * What is `make`?
+  
+* What is `make`?
 
 ### Extra resources
 
