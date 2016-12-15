@@ -18,7 +18,13 @@
 * Short assignment seems interesting and a possible minefield for me: `:=` with more notes [here](http://stackoverflow.com/questions/12611561/why-does-go-have-short-assignments-inside-functions)
 * Read up more on [defer in this blog post](https://blog.golang.org/defer-panic-and-recover)
 * Array size must be set with declaration and its size is constant and part of its type
-* Slice literal is like an array literal without the length (so unbounded array is basically actually a slice)
+* Slice literal is like an array literal without the length (don't have to specify length in the declaration)
+* Slice has both _a length_ (number of elements in the slice) and _a capacity_ (number of elements in the underlying array counting from the first element in the slice)
+  ```
+  length := len(s)
+  capacity := cap(s)
+  ```
+ * What is `make`?
 
 ### Extra resources
 
