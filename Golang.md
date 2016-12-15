@@ -26,7 +26,7 @@
   ```
   
 * What is `make`?
-* [Slice capacity with odd numbers of elements differs from capacity with even numbers of elements](http://stackoverflow.com/questions/32995623/why-does-slice-capacity-with-odd-numbers-differ-from-behavior-with-even-numbers)
+* [Slice capacity with odd numbers of elements differs from capacity with even numbers of elements](http://stackoverflow.com/questions/32995623/why-does-slice-capacity-with-odd-numbers-differ-from-behavior-with-even-numbers) and another explanation [here](http://stackoverflow.com/questions/38543825/appending-one-element-to-nil-slice-increases-capacity-by-two)
 
 ### Extra resources
 
