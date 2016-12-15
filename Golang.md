@@ -6,6 +6,10 @@
 - [ ] [Effective Go](https://golang.org/doc/effective_go.html)
 - [ ] [Go's Declaration Syntax](https://blog.golang.org/gos-declaration-syntax)
 
+## Cheat Sheet
+
+* First [good cheat sheet](https://github.com/a8m/go-lang-cheat-sheet)
+
 ## Stray observations
 * Need to understand this $GOPATH variable
 * Exported names in packages begin with a capital letter, unexported names are lowercase (unexported means inaccessible/private)
