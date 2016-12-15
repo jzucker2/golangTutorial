@@ -26,6 +26,7 @@
   ```
   
 * What is `make`?
+* [Slice capacity with odd numbers of elements differs from capacity with even numbers of elements](http://stackoverflow.com/questions/32995623/why-does-slice-capacity-with-odd-numbers-differ-from-behavior-with-even-numbers)
 
 ### Extra resources
 
