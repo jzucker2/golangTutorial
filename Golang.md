@@ -30,6 +30,8 @@
 * You can only declare a method with a receiver whose type is defined in the same package as the method. You cannot declare a method with a receiver whose type is defined in another package (which includes the built-in types such as `int`).
 * Pointer receivers vs. value receivers?
 * Interface is a tuple of `(value, type)`
+* A nil interface value holds neither value nor concrete type.
+* The interface type that specifies zero methods is known as the empty interface: `interface{}`. An empty interface may hold values of any type. (Every type implements at least zero methods.) Empty interfaces are used by code that handles values of unknown type. For example, fmt.Print takes any number of arguments of type `interface{}`.
 
 ### Extra resources
 
