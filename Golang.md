@@ -32,6 +32,19 @@
 * Interface is a tuple of `(value, type)`
 * A nil interface value holds neither value nor concrete type.
 * The interface type that specifies zero methods is known as the empty interface: `interface{}`. An empty interface may hold values of any type. (Every type implements at least zero methods.) Empty interfaces are used by code that handles values of unknown type. For example, fmt.Print takes any number of arguments of type `interface{}`.
+* Only the sender should close a channel, never the receiver. Sending on a closed channel will cause a panic.
+* Channels aren't like files; you don't usually need to close them. Closing is only necessary when the receiver must be told there are no more values coming, such as to terminate a range loop.
+* The `select` statement lets a goroutine wait on multiple communication operations. A `select` blocks until one of its cases can run, then it executes that case. It chooses one at random if multiple are ready.
+* The default case in a select is run if no other case is ready. Use a default case to try a send or receive without blocking:
+```
+select {
+case i := <-c:
+	// use i
+default:
+	// receiving from c would block
+}
+```
+* This is more notes
 
 ### Extra resources
 
